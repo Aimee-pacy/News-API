@@ -11,7 +11,7 @@ class ArticleTest(unittest.TestCase):
         '''
         Set up method that will run before every Test
         '''
-        self.new_article = Article("https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/B874/production/_115602274_p08z8g2n.jpg",'business','marketing','http://www.abc.net.au/news',"2020-11-22T18:49:22Z")
+        self.new_article = Article('business','marketing','http://www.abc.net.au/news',"2020-11-22T18:49:22Z")
 
     def test_instance(self):
         self.assertTrue(isinstance(self.new_article,Article))
