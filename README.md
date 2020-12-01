@@ -24,7 +24,7 @@ Aimee Pacifique ISHIMWE
 ## Technologies Used
 * Python3.6
 * Flask
-* Heroku
+
 
 ## Link
  
